@@ -1,0 +1,12 @@
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[programs.localnet]
+basic_1 = "6NZvhVB2z3qsCvMxqoMcDXhAr7kjyn8KHsn2VtUC4HUb"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
